@@ -5,6 +5,8 @@ background: #4EA0FF;
 background: #808080;
 background: #B1E5F2;
 background: #FFFF00;
+background-color: #B1E5F2;
+style="background-color: #B1E5F2;"
 **/
 
 *{
@@ -22,4 +24,38 @@ header{
     width: auto;
     padding-top: 120px;
     padding-left: 15px;
+}
+
+#color-Booleaner {
+    color: #36B1E7;    
+}
+
+.color-grey {
+    color: #808080;
+}
+
+.little-size {
+    font-size: 10px;
+}
+
+.tim-image {
+    height: auto;
+    margin-top: 20px;;
+}
+
+.margin-paragraph {
+    margin-top: 20px;
+}
+
+.white {
+    color: white;
+}
+
+thead {
+    background-color: #20A9E5;
+    font
+}
+
+thead th:last-child {
+    width: 50%;
 }
