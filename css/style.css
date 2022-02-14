@@ -6,3 +6,20 @@ background: #808080;
 background: #B1E5F2;
 background: #FFFF00;
 **/
+
+*{
+    margin: 0;
+}
+
+header{
+    height: 180px;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+}
+
+.logo-img {
+    height: 55px;
+    width: auto;
+    padding-top: 120px;
+    padding-left: 15px;
+}
