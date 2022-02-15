@@ -5,8 +5,6 @@ background: #4EA0FF;
 background: #808080;
 background: #B1E5F2;
 background: #FFFF00;
-background-color: #B1E5F2;
-style="background-color: #B1E5F2;"
 **/
 
 *{
@@ -14,20 +12,24 @@ style="background-color: #B1E5F2;"
 }
 
 header{
-    height: 180px;
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
+    background-size: 20%;
 }
 
-article {
-    padding-left: 5px;
+main {
+    width: 1100px;
 }
 
 .logo-img {
     height: 55px;
     width: auto;
-    padding-top: 120px;
+    padding-top: 75px;
     padding-left: 15px;
+}
+
+article {
+    padding-left: 5px;
 }
 
 #color-Booleaner {
@@ -55,6 +57,10 @@ article {
     color: white;
 }
 
+table {
+    border-spacing: 0;
+}
+
 thead {
     background-color: #20A9E5;
     text-align: left;
@@ -73,7 +79,8 @@ thead th:last-child {
     width: 250px;
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
-    margin-top: 10px;
+    padding: 15px 0px 0px 15px;
+    margin-top: 15px;
 }
 
 .contenitor-graph {
@@ -81,5 +88,6 @@ thead th:last-child {
     width: 250px;
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
-    margin-top: 10px;
+    padding: 15px 0px 0px 15px;
+    margin-top: 15px;
 }
